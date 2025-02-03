@@ -1,0 +1,19 @@
+/* body{
+    background-color: gray;
+} */
+div{
+    /*(1)마진 하나 지정 사례*/
+    /* margin: 40px;
+    padding: 40px; */
+    /*(2)마진 두개 지정 사례*/
+    /*margin: 6vh 2vw;*/    /*첫번째값 : 세로 두번째값 : 가로*/
+    /* padding: 0; */
+
+    /* (3)마진 값 네개 지정 사례 - 네 개의 값은 위에서부터 시계 방향 */
+    /* margin: 12px 24px 48px 96px;
+    padding: 0; */
+    /* (4)마진 값 세개 지정 사례 - 첫번째 값 : 위쪽영역 / 두번째 값 : 좌우 영역 / 세번째 값 : 아래쪽 영역 */
+    margin: 12px 24px 48px;
+    padding: 0;
+ }
+

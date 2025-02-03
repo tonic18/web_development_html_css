@@ -1,0 +1,6 @@
+ul > li {
+    /* margin-right: 2em; */
+    display: inline;
+    /*display: block; */ /*default값으로 볼 수 있음(div가 아니기 때문에 이렇게 작성함)*/
+
+}

@@ -1,0 +1,19 @@
+p{
+    /* text-align: left; */
+    /* text-align: right; */
+    /* text-align: center; */
+    /* text-align: justify;
+    text-spacing: 20px;    px / em 가능 */
+    /* word-spacing: 1.5em; */
+    
+    /* 양수 입력 */
+    /* text-indent: 1em; */
+
+    /* 음수 입력 */
+    /* text-indent: -2em; */ /* 해당 경우 '웹'이라는 글자가 브라우저 바깥으로 나가게 됨 */
+
+
+}
+/*
+    결과값이 브라우저마다, 모니터 사이즈마다, 확대 정도에 따라 다를 수 있음
+*/

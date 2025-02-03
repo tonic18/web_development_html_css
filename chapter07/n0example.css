@@ -1,0 +1,42 @@
+span{
+    /* display: inline-block; */
+    /* display: inline;
+    width: 240px;
+    height: 36px; */
+    /*가로 공간 차지하는 부분 관련 css 코드*/
+    /* display: inline-block;
+    width: 200px;
+    height: 50px; */
+    background-color: blue;
+
+    /*여백 지정하기 관련 css 코드*/
+    /* display: inline; */
+    /* margin: 20px;       인라인 요소의 경우는 좌우에만 여백이 생겼음을 확인 가능 */
+    padding: 20px;  /* 인라인 요소에는 여백이 불완전하게 적용됨 -> 겹치는 형태가 드러남
+    이상의 문제 때문에 여백을 적용할 때는 inline-block을 적용하는 편 */
+    display: inline-block;
+}
+
+div{
+    /* display: inline-block; */
+    /* display: block; */
+    /* display: inline;
+    width: 120px;
+    height: 36px; */
+
+    /*가로 공간 차지하는 부분 관련 css 코드*/
+    /* display: inline-block;
+    width: 200px;
+    height: 50px; */
+    background-color: red;
+
+    /*여백 지정하기 관련 css 코드*/
+    display: block;
+    /* margin: 20px; 블록 요소의 경우 상하좌우에 여백이 생겼음을 확인할 수 있음 */
+    padding: 20px;
+    
+
+    /*
+        해당 경우에 블록 요소가 다른 요소에 공간을 할당함
+    */
+}
